@@ -18,7 +18,7 @@
 
 #### More color choices! 
 
-<!---
+```
 
 <!DOCTYPE html>
 <html>
@@ -73,5 +73,4 @@ function update(bgColor, textColor) {
 
 </body>
 </html>
-
--->
+```
