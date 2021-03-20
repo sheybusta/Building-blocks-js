@@ -16,18 +16,62 @@
 - switch statements: switch, case, break, default
 - ternary operator: white and black website. 
 
-##### A simple calendar example:
-- In this example, you are going to help us finish a simple calendar application. In the code you've got:
+#### More color choices! 
 
-- A <select> element to allow the user to choose between different months.
-- An onchange event handler to detect when the value selected in the <select> menu is changed.
-- A function called createCalendar() that draws the calendar and displays the correct month in the ... element.
+<!---
 
-- We need you to write a conditional statement inside the onchange handler function, just below the // ADD CONDITIONAL HERE comment. It should:
+<!DOCTYPE html>
+<html>
+<body>
 
-- Look at the selected month (stored in the choice variable. This will be the <select> element value after the value changes, so "January" for example.)
- - Set a variable called days to be equal to the number of days in the selected month. To do this you'll have to look up the number of days in each month of the     year. You can ignore leap years for the purposes of this example.
-- Hints:
+<label for="theme">Select theme: </label>
+<select id="theme">
+  <option value="white">White</option>
+  <option value="black">Black</option>
+  <option value="purple">Purple</option>
+  <option value="yellow">Yellow</option>
+  <option value="psychedelic">psychedelic</option>
+  
+</select>
 
-- You are advised to use logical OR to group multiple months together into a single condition; many of them share the same number of days.
-- Think about which number of days is the most common, and use that as a default value.
+<h1>This is the website color</h1>
+
+<script>
+
+const select = document.querySelector('select');
+const html = document.querySelector('html');
+
+select.onchange = function() {
+ const choice = select.value;
+
+ switch(choice) {
+ case 'black':
+ update('black','white');
+ break;
+ case 'white':
+ update('white','black');
+ break;
+ case 'purple':
+ update('purple','white');
+ break;
+ case 'yellow':
+ update('yellow','darkgray');
+ break;
+ case 'psychedelic':
+ update('lime','purple');
+ break;
+ }
+}
+
+function update(bgColor, textColor) {
+ html.style.backgroundColor = bgColor;
+ html.style.color = textColor;
+}
+ 
+
+</script>
+
+</body>
+</html>
+
+-->
