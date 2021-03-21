@@ -8,7 +8,7 @@
 - [ ] [Function return value](https://developer.mozilla.org/en-US/docs/Learn/JavaScript/Building_blocks/Return_values)
 - [ ] [Introduct to event](https://developer.mozilla.org/en-US/docs/Learn/JavaScript/Building_blocks/Events)
 
-### Conditionals 
+## Conditionals 
 
 - The code needs to make decisions and carry out actions accordingly depending on different inputs. 
 - Conditional statements allow us to represent such decision making in JavaScript, from the choice that must be made (for example, "one cookie or two"), to the resulting outcome of those choices (perhaps the outcome of "ate one cookie" might be "still felt hungry",...)
@@ -73,4 +73,41 @@ function update(bgColor, textColor) {
 
 </body>
 </html>
+```
+## Looping code
+
+- A loop has one or more of these features: 
+1. counter: inizialited with certain value, like I don't have food and I need to reach this amount. 
+2. condition : when the loop needs to stop, Have I got enough food?. If yes! stop!
+3. iterator: which generally increments the counter by a small amount on each successive loop until the condition is no longer "true". 
+
+```
+loop(food = 0; foodNeeded = 10) {
+  if (food >= foodNeeded) {
+    exit loop;
+    // We have enough food; let's go home
+  } else {
+    food += 2; // Spend an hour collecting 2 more food
+    // loop will then run again
+  }
+}
+```
+- For Loop : 
+The keyword for, followed by some parentheses.
+1. initializer: this is usually a variable set to a number, que se incrementa para contar el número de veces que se ha ejecutado el bucle. A veces también se la denomina counter variable.  
+2. condition: when needs to stop
+3. final expression:  this is always evaluated (or run) each time the loop has gone through a full iteration.
+
+```
+
+const cats = ['Bill', 'Jeff', 'Pete', 'Biggles', 'Jasmin'];
+let info = 'My cats are called ';
+const para = document.querySelector('p');
+
+for (let i = 0; i < cats.length; i++) {
+  info += cats[i] + ', ';
+}
+
+para.textContent = info;
+
 ```
