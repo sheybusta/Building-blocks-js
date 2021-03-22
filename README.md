@@ -149,3 +149,5 @@ do {
 - for / of - recorre los valores de un objeto iterable
 - while: recorre un bloque de código mientras una condición especificada es verdadera
 - do / while - también recorre un bloque de código mientras una condición especificada es verdadera
+
+[Loops video examples](https://www.youtube.com/watch?v=Kn06785pkJg)
