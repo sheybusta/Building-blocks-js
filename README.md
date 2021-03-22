@@ -111,3 +111,4 @@ for (let i = 0; i < cats.length; i++) {
 para.textContent = info;
 
 ```
+Important: With for — as with all loops — you must make sure that the initializer is incremented or, depending on the case, decremented, so that it eventually reaches the point where the condition is not true. If not, the loop will go on forever, and either the browser will force it to stop, or it will crash. This is called an infinite loop.
