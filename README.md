@@ -129,7 +129,8 @@ while (condition) {
 
 ```
    - do...while
-  There is a variation in while structure
+  
+  There is a variation on the while structure
   
   ```
   initializer
