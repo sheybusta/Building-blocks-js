@@ -144,8 +144,8 @@ do {
 ```
 
 #### IMPORTANTE: (Spanish) 
-for - recorre un bloque de código varias veces
-for / in: recorre las propiedades de un objeto
-for / of - recorre los valores de un objeto iterable
-while: recorre un bloque de código mientras una condición especificada es verdadera
-do / while - también recorre un bloque de código mientras una condición especificada es verdadera
+- for - recorre un bloque de código varias veces
+- for / in: recorre las propiedades de un objeto
+- for / of - recorre los valores de un objeto iterable
+- while: recorre un bloque de código mientras una condición especificada es verdadera
+- do / while - también recorre un bloque de código mientras una condición especificada es verdadera
