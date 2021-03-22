@@ -112,3 +112,32 @@ para.textContent = info;
 
 ```
 Important: With for — as with all loops — you must make sure that the initializer is incremented or, depending on the case, decremented, so that it eventually reaches the point where the condition is not true. If not, the loop will go on forever, and either the browser will force it to stop, or it will crash. This is called an infinite loop.
+
+- While Loop
+
+1. Inizializer is set before the loop. 
+2. And final-expression is inside the loop after code runs.
+3. Condition is included in the parentheses, which is preceded by while keyword. 
+
+```
+initializer
+while (condition) {
+  // code to run
+
+  final-expression
+}
+
+```
+   - do...while
+  There is a variation in while structure
+  
+  ```
+  initializer
+do {
+  // code to run
+
+  final-expression
+} while (condition)
+
+
+```
